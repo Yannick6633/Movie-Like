@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -12,7 +12,6 @@
 </head>
 <body>
 
-    <div class="app-movie">
         <header>
             <nav class="nav">
                 <input type="checkbox" id="nav-check" />
@@ -34,62 +33,36 @@
                   <a href="" target="_blank">Artistes</a>
                   <a href="" target="_blank">Plus</a>
                 </div>
-            </nav>
-           
-            <div class="container">
-                <div class="jumbotron jumbotron-fluid">
-                    <div class="container">
-                      <h3 class="display-4">Bienvenue sur Movie Like</h3>
-                      <h4 class="lead">Des millions de films, séries et artistes à découvrir...</h4>
-                      <input type="text" autocomplete="off" class="search-box" placeholder="Search for a movie...">
-                    </div>
-                  </div>
-            </div>   
+            </nav>  
         </header>
-
+        
         <main>
+    
+        <div class="container">
+            <div class="jumbotron">
+                  <h1 class="text-left">Bienvenue sur Movie Like</h1>
+                  <h2 class="text-left">Des millions de films, séries et artistes à découvrir...</h2>
+                  <form action="searchForm">
+                      <input type="text" autocomplete="off" class="form-control" id="searchText" placeholder="Search for a movie...">
+                  </form>
+              </div>
+        </div>   
             <section>
                 <div class="container">
-                    <div class="title-bar">
+                  
                         <div class="left">
-                            <p class="bold">Populaires</p>
+                            <h3>Populaires</h5>
+                            <hr>
                         </div>
+                
+                    <div class="movies">
+                        <div id="movies" class="row"></div>
                     </div>
-                    <ul class="list" id="movies">
-                        <li>
-                            <img class="poster" src="" alt="">
-                            <p class="title" id="titleMovie"></p>
-                        </li>
-                        <li>
-                            <img class="poster" src="" alt="">
-                            <p class="title"></p>
-                        </li>
-                        <li>
-                            <img class="poster" src="" alt="">
-                            <p class="title"></p>
-                        </li>
-                        <li>
-                            <img class="poster" src="" alt="">
-                            <p class="title"></p>
-                        </li>
-                        <li>
-                            <img class="poster" src="" alt="">
-                            <p class="title"></p>
-                        </li>
-                        <li>
-                            <img class="poster" src="" alt="">
-                            <p class="title"></p>
-                        </li>
-                        <li>
-                            <img class="poster" src="" alt="">
-                            <p class="title"></p>
-                        </li>
-                    </ul>
+              
                 </div>
-               
             </section>
+  
         </main>
-    </div>
     
     <script src="main.js"></script>
 </body>

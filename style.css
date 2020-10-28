@@ -1,34 +1,19 @@
-* {
+body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
-
-body {
-    font-family: 'montserrat', sans-serif;
     background-color: #313131;
-    
 }
 
-input {
-    width: 100%;
-    max-width: 950px;
-    padding: 10px 15px;
-    margin-left: 50px;
-    border: none;
-    outline: none;
-    background-color: rgba(255, 255, 255, 0.3);
-    border-radius: 16px 16px 16px 16px;
-    border-bottom: 3px solid #DF8E00;
-    color: #ccb2cc;
-    font-size: 20px;
-    font-weight: 300;
-    transition: 0.2s ease-out;
+
+
+hr {
+    height: 1px;
+    padding: 0;
+    background-color: #DF8E00;
+    border: 0;
 }
-.container {
-    width: 100vw;
-    height: 280px;
-}
+ 
 .jumbotron {
     background-image: url(images/bg.jpg);
     background-repeat: no-repeat;
@@ -39,56 +24,41 @@ input {
     color: #FFF;
 }
     
-.title-bar {
-    padding: 20px;
-    border-bottom: 1px solid #ddd;
-    overflow: hidden;
-}
-
 .left {
-    float: left;
-    font-size:  15px;
+    font-size:  30px;
     text-transform: uppercase;
-}
-.bold {
-    font-weight: bold;
-}
-p {
-    display: inline-block;
-    margin-right: 10px;
-}
-
-.list {
-    margin: 20px;
-    margin-right: 0;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-}
-
-li {
-    flex: 0 0 130px;
-    padding-bottom: 30px;
-    margin-right: 20px;
-    position: relative;
-    list-style: none;
+    color: #FFF;
 }
 
 img {
     width: 130px;
     height: 195px;
     display: block;
-    margin: 100px auto 5px auto;
+    margin: 10px auto 5px auto;
     border-radius: 5px;
     cursor: pointer;
 }
 
-.title {
-    text-overflow: ellipsis;
-    overflow: hidden;
-    white-space: nowrap;
-    font-weight: bold;
-    font-size: 13px;
-    margin-bottom: 4px;
-    cursor: pointer;
+h5 {
+    display: inline-flex;
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    font-size: 15px;
+    color: #FFF;
+    
+}
+
+.row {
+    margin: 0px;
+    margin-right: 0;
+    display: flex;
+    justify-content: space-between;
+    color: #FFF;  
+}
+
+li {
+    font-size: 11px;
+    list-style: none;
+    
 }
